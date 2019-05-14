@@ -3,4 +3,5 @@
     <string name="send">Wyślij wiadomosc</string>
     <string name="Msg_text">Msg:</string>
     <string name="title_activity_receive_message">titleActivityReceiveMessage</string>
+    <string name="chooser">Wysyłanie wiadomości....</string>
 </resources>
