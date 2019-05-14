@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ReceiveMessageActivity">
     <TextView
-        android:id="@id/hello_darkness_message"
+        android:id="@+id/hello_darkness_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 import android.widget.EditText;
+import java.lang.String;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onSendMessage(View view) {
-        EditText messageView = (EditText) findViewById(R.id.hello_darkness_message);
+        EditText messageView = (EditText) findViewById(R.id.message);
         String messageText = (String) messageView.getText().toString();
         Intent intent = new Intent(this, ReceiveMessageActivity.class);
         Intent.putExtra(ReceiveMessageActivity.EXTRA_MESSAGE, messageText);
